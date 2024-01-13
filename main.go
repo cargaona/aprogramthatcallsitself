@@ -8,6 +8,9 @@ import (
 )
 
 // A program that calls itself.
+
+// go build -o app main.go
+// ./app
 func main() {
 	ex, err := os.Executable()
 	if err != nil {
